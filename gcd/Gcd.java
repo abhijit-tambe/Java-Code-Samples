@@ -33,15 +33,22 @@ public class Gcd {
 		Date e = new Date();
 		e1 = e.getTime();
 //		String power = Integer.toString(gcd, 2);
-		System.out.println(gcd +"\ntime taken : " +(e1-s1) +" milliseconds");
+		System.out.printf("gcd of two numbers %d and %d is : %d" ,x,y,gcd);
+		System.out.println("\ntime taken : " +(e1-s1) +" milliseconds");
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		 int num1 = input.nextInt();
+		System.out.println("enter 1st number and its exponent");
+		
+ 		int num1 = input.nextInt();
+
 		 int num2 = input.nextInt();
-		 int num3 = input.nextInt();
+
+		System.out.println("enter 2nd number and its exponent");
+		
+ 		int num3 = input.nextInt();
 		 int num4 = input.nextInt();
 		int a=(int)Math.pow(num1, num2),b=(int)Math.pow(num3, num4);
 		gcd(a,b);
