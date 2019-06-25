@@ -1,2 +1,2 @@
 # javaExamples
-implementation of various APIs  
+This Repository contains few java code samples
