@@ -4,7 +4,7 @@ for edges
 left edge number greater than or equal to right number
 right edge number greater than or equal to left number 
 for rest compare the no is greater than or equal to both adjacent number
-worst case time complexity Θ(n).
+worst case time complexity Theta(n).
 
 */
 import java.util.Arrays;
