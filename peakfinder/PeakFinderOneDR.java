@@ -1,4 +1,4 @@
-/*find a peak in One Dimention Array with time complexity O(log n)
+/*find a peak in One Dimension Array with time complexity O(log n)
  * */
 
 import java.util.Arrays;
