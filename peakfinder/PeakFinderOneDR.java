@@ -1,6 +1,6 @@
 /*find a peak in One Dimension Array with time complexity O(log n)
  * */
-
+package peakfinder;
 import java.util.Arrays;
 
 /**
