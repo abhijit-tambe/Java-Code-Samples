@@ -1,6 +1,6 @@
 /*find a peak  in  2D array with worst time complexity theta(n log n)
 */
-
+package peakfinder;
 /**
  * @author abhijit
  *
