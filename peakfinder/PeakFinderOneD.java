@@ -7,6 +7,7 @@ for rest compare the no is greater than or equal to both adjacent number
 worst case time complexity Theta(n).
 
 */
+package peakfinder;
 import java.util.Arrays;
 
 /**
