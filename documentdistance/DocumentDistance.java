@@ -58,7 +58,7 @@ public class DocumentDistance {
 				+ "adjaiosjdasdjasdasodkasodk   adokosakdpoakdaos doasjdajdasjdasidj" + " djasiodjasjdasdj"
 				+ " dasdjajdasdpadasp" + "d asd" + "asdspodjsdjsajdsodjosjdosdji"
 				+ "djsaijdasjdasoidajsiodajsdjaodjoados the";
-		s1 =s2;
+//		s1 =s2;
 		String D1[] = s1.replaceAll("[^a-zA-Z ]", " ").toLowerCase().split("\\s+");
 		String D2[] = s2.replaceAll("[^a-zA-Z ]", " ").toLowerCase().split("\\s+");
 
