@@ -1,4 +1,4 @@
-/*
+/*Given an array of integers and a number k, find the maximum sum of k   *consecutive elements.
  * maximum sum of a sub array of size k using window sliding technique in O(n) time complexity
  * */
 
