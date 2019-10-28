@@ -18,6 +18,7 @@ public class NbonacciSlidingWindow {
 		}
 		arr[n-1] =1;
 		arr[n] =1;
+		// Time complexity O(nxm)
 //		for(int i=n+1;i<m;i++) {
 //			int cur_sum=0;
 //			int j=1;
@@ -27,6 +28,8 @@ public class NbonacciSlidingWindow {
 //			}
 //			arr[i] = cur_sum;
 //		}		
+		
+		// Time complexity O(n)
 		for(int i= n+1;i<m;i++) {
 			arr[i] =2* arr[i-1] - arr[i-n-1];
 		}
