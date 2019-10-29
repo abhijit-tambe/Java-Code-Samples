@@ -1,2 +1,1 @@
-# javaExamples
-This Repository contains few java code samples
+This Repository contains problem solving codes in java
