@@ -50,7 +50,7 @@ package gfgdsa.hashing;
 	            // h.add(x);
 	            h.put(x,h.getOrDefault(x,0)+1);
 	        }
-	        System.out.println(h);
+	        System.out.println(h.size());
 	    }
 		public static void main (String[] args)
 		 {
